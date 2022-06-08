@@ -1,0 +1,80 @@
+.homeLink {
+  color: #1a94ff !important;
+}
+
+.prefix {
+  font-weight: 300;
+}
+
+.wrapBoxSearch {
+  align-items: center;
+  display: flex;
+  height: 60px;
+}
+
+.boxLeft {
+  min-width: 360px;
+  margin-left: 16px;
+}
+
+.boxCenter,
+.boxRight {
+  min-width: 248px;
+  display: flex;
+  min-height: 40px;
+  padding: 0 16px;
+  align-items: center;
+  border: 1px solid #dddde3;
+  border-radius: 4px;
+}
+
+.boxLeft,
+.boxCenter,
+.boxRight {
+  height: 40px;
+  margin-right: 30px;
+}
+
+.ant-select-focused {
+  outline: none !important;
+}
+
+.boxLeft input {
+  height: 40px;
+}
+
+.wrapTable {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.wrapBoxLeft {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dddde3;
+  border-radius: 4px;
+  padding: 0 16px;
+}
+
+.wrapBoxLeft input {
+  outline-style: none;
+  box-shadow: none;
+  border: none;
+}
+
+.wrapBoxLeft input:focus {
+  outline-style: none;
+  box-shadow: none;
+}
+.boxRight .ant-select input:focus {
+  border-style: none;
+  outline: none;
+}
+.spinner {
+  height: 100%;
+  margin: 20px 0;
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
